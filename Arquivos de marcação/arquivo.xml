@@ -1,0 +1,34 @@
+<?xml version="1.0"> 
+
+<!-- tem que começar com isso -->
+<!-- define estrutra interna conforme quer, subentidades
+
+ -->
+
+<filmes>
+    <filme id="1"> '''Nome da entidade''' "id é um atributo"
+        <nome> A vida de Brian </nome>
+        <ano_lancamento> 1981 </ano_lancamento>
+        <genero> Comédia</genero>
+        <CpfTitutal>
+        <NroIdent>
+    </filme>
+
+    <filme id="2"> 
+        <nome> Em busca do cálice sagrado </nome>
+        <ano_lancamento> 1981 </ano_lancamento>
+        <genero> Comédia</genero>
+        <notas>
+            <critico nome="joão">10</critico> <!-- aqui ta dando nome 0 -->
+            <critico nome="Ermengengildo">9</critico>
+        </notas>
+
+    </filme>
+</filmes>
+
+
+<!-- comentário -->
+
+        <CpfTitutal>
+        <NroIdent>
+

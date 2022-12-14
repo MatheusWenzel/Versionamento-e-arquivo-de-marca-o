@@ -1,0 +1,18 @@
+<?xml version="1.0"> 
+<!-- Exemplo para configuração da aplicação-->
+
+<routes>
+    <admin path ="/admin">
+        <route path="/users_list" method="get" />           /admin/users_list
+        <route path="/users" method="put" />
+            <querystring>
+                <parameter id="userid" />
+                <parameter id="overwrite" />
+            </querystring>
+    </admin>
+    
+    <user path ="/user">
+
+    </user>
+
+</routes>

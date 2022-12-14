@@ -1,0 +1,26 @@
+{
+    "filmes": [
+        {
+            "id": 1,
+            "nome": "A vida de Brian",
+            "anoLancamento": 1981,
+            "genero": "Comédia"
+        },
+        {
+            "id": 2,
+            "nome": "Em busca do cálice sagrado",
+            "anoLancamento": 1981,
+            "genero": "Comédia",
+            "notas": [
+                {
+                    "nome": "Joao",
+                    "nota": 10
+                },
+                {
+                    "nome": "Ermengildo",
+                    "nota": 9
+                }
+            ]
+        }
+    ]
+}

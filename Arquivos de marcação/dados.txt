@@ -1,0 +1,12 @@
+Dados 
+
+Estruturados
+Estrutura base a ser seguida
+- banco de dados Entidade relacionamento ER/SQL
+Bidimencional → linhas e colunas
+
+Não estruturados
+Não definiu uma estrutura prévia que obriga a construir as coisas
+- mongodb
+- dynamodb
+

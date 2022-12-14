@@ -1,0 +1,49 @@
+<!--
+Definam um XML que tenha a estrutura de um cupom fiscal de um mercado:
+
+Para os itens precisamos de:
+
+- nome do produto
+- quantidade (float)
+- valor unitario (float)
+- tipo unidade (un, kg, cx, lt)
+- valor total do item (float)
+
+e identifique tambem:
+- o estabelecimento
+- o cnpj (com marcacoes)
+- valor total da nota (float).
+-->
+
+<?xml version="1.0"> 
+
+<nota_fiscal>
+    <informacoes>
+        <nome> Mercado do José <\nome> 
+        <cnpj> 99.999.999/0001-99 <\cnpj>
+        <valor_total_nota> 215.00 <\valor_total_nota>
+    <\informacoes>
+    <itens>
+        <item id="1">
+            <nome_produto> Arroz <\nome_produto>
+            <quantidade> 10.00 <\quantidade>
+            <valor_unitario> 5.00 <\valor_unitario>
+            <tipo_unidade> un <\tipo_unidade>
+            <valor_total_item> 50.00 <\valor_total_item>
+        <\item>
+        <item id="2">
+            <nome_produto> Tomate <\nome_produto>
+            <quantidade> 25.00 <\quantidade>
+            <valor_unitario> 1.00 <\valor_unitario>
+            <tipo_unidade> un <\tipo_unidade>
+            <valor_total_item> 25.00 <\valor_total_item>
+        <\item>
+        <item id="3">
+            <nome_produto> Leite Integral <\nome_produto>
+            <quantidade> 7.00 <\quantidade>
+            <valor_unitario> 20.00 <\valor_unitario>
+            <tipo_unidade> cx <\tipo_unidade>
+            <valor_total_item> 140.00 <\valor_total_item>
+        <\item>
+    <\itens>
+<\nota_fiscal>

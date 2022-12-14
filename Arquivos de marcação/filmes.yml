@@ -1,0 +1,15 @@
+filmes:
+  -id: 1
+    nome: "A vida de Brian"
+    ano_lancamento: 1981
+    genero: "comedia"
+  -id: 2
+    nome: "Em busca do cálice sagrado"
+    ano_lancamento: 1981
+    genero: "comedia"
+    notas:
+      - nome: "joao"
+        nota: 10
+      - nome: Ermenegildo
+        nota: 9
+
